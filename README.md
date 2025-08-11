@@ -1,12 +1,53 @@
-# React + Vite
+# Restara.io
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
+Restara.io is a restaurant management and reservation system built with modern web technologies. It provides an efficient and scalable solution for managing restaurant bookings, menus, and customer interactions.
 
-Currently, two official plugins are available:
+## Features
+- **Reservation Management**: Allows customers to book tables and view available slots.
+- **Menu Management**: Restaurants can create, update, and display menus.
+- **Admin Dashboard**: Tools for restaurant owners to manage bookings and menu items.
+- **Responsive Design**: Optimized for both desktop and mobile devices.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tech Stack
+- **Frontend**: React.js, Context Api
+- **Deployment**: Vercel (or specify your deployment platform)
 
-## Expanding the ESLint configuration
+## Installation
+Follow these steps to set up the project locally:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/shaifsab/restara-io.git
+   cd restara-io
+   ```
+
+2. **Install Dependencies**:
+   ```bash
+   npm install
+   ```
+
+3. **Run the Application**:
+   ```bash
+   npm run dev
+   ```
+   The application will be available at `http://localhost:5173`.
+
+## Usage
+- **Customers**: Browse the menu and book a table directly through the interface.
+- **Restaurant Owners**: Access the admin dashboard to manage reservations and update menu items.
+- **Developers**: Modify the codebase to add new features or customize the application.
+
+## Contributing
+Contributions are welcome! Please follow these steps:
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature/your-feature`).
+3. Commit your changes (`git commit -m 'Add your feature'`).
+4. Push to the branch (`git push origin feature/your-feature`).
+5. Open a pull request.
+
+## License
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Contact
+For any inquiries, reach out to [shaifsab](https://github.com/shaifsab) or open an issue on this repository.
